@@ -1,0 +1,38 @@
+img {
+  height: 50vh;
+  width: 50vw;
+  margin: 0;
+}
+
+main {
+  background-image: url('./images/background.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  overflow: visible;
+  background-attachment: fixed;
+  position: relative;
+}
+
+#branch-left {
+  position: absolute;
+
+  width: 60vw;
+  z-index: 999;
+}
+
+#vader {
+
+}
+
+#branch-right: {
+  position: absolute;
+  z-index: 999;
+  right: 0;
+  bottom: 0;
+  width: 60vw;
+}

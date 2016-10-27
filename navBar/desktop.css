@@ -1,0 +1,26 @@
+#menu {
+  display: none;
+}
+
+h3 {
+  display: block;
+  margin-left: 30px;
+}
+
+#nav {
+  display: flex;
+  margin-right: 30px;
+}
+
+#nav p {
+  margin-left: 20px;
+}
+
+header {
+  justify-content: space-between;
+}
+
+#main-logo {
+  font-size: 4em;
+
+}

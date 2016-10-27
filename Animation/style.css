@@ -1,0 +1,68 @@
+body {
+  padding: 50px;
+}
+
+h4 {
+  font-family: 'Lora' serif;
+  font-size: 19.8px;
+  line-height: 24px;
+  color: #232323;
+}
+
+.box1 {
+  height: 200px;
+  width: 200px;
+  background: orange;
+  transition: all 2s ease-in-out;
+}
+
+.box1:hover {
+  transform: scale(2.5) translate(200px, 150px);
+
+}
+
+.box2 {
+  height: 300px;
+  width: 300px;
+  background: teal;
+  transition: all 2s ease;
+}
+
+.box2:hover {
+  background-color: salmon;
+}
+
+.box3 {
+  height: 300px;
+  width: 500px;
+  background: #2C3E50; /* fallback for old browsers*/
+  background: -webkit-linear-gradient(right, #2C3E50, #FD746C);
+  background: -o-linear-gradient(right, #2C3E50, #FD746C);
+  background: linear-gradient(to left, #2C3E50, #FD746C);
+
+
+
+ /* Chrome 10-25, Safari 5.1-6 */
+ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+button {
+  padding: 20px;
+  background: green;
+  font-size: 16px;
+  color: white;
+  border: none;
+  outline: none;
+  transition: all 3s ease-in;
+}
+
+button:hover {
+  transform: rotate(1080deg);
+  color: salmon;
+  font-size: 100px;
+}

@@ -1,0 +1,71 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,300);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,300%7CPlayfair+Display);
+
+
+header {
+  height: 10vh;
+  width: 100vw;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  transition: all 1s;
+}
+
+.small {
+  height: 8vh;
+}
+
+.logo-small {
+  font-size: .6em;
+}
+
+#menu {
+  margin-left: 30px;
+}
+
+h3 {
+    display: none;
+    font-family: 'Playfair  Display';
+    font-weight: bold;
+    font-size: 1.3em;
+    transition: all 1s;
+}
+
+#nav {
+  display: none;
+  font-family: 'Open Sans';
+}
+
+main {
+  box-sizing: border-box;
+  background-image: url("https://images.unsplash.com/photo-1428447638737-040fa5316956?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=5a61ec649e7a3335049c1a10e4b1a61c");
+  background-position: center;
+  background-size: cover;
+  width: 100vw;
+  height: 90vh;
+  margin-top: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#main-logo {
+  font-size: 2em;
+  font-weight: bold;
+  height: 30vh;
+  width: 50vw;
+  border: 10px solid white;
+  font-family: 'Open Sans';
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.lorem {
+  box-sizing: border-box;
+}
