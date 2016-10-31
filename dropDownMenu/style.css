@@ -1,0 +1,21 @@
+header {
+  height: 5vh;
+  width: 100vw;
+}
+
+img {
+  display: block;
+}
+
+#drop {
+  transition: all 5s;
+}
+
+#menu {
+  display: none;
+  border: 1px solid black;
+  margin-top: 10px;
+  height: 10vh;
+  width: 40vw;
+  /*transform: slideDown();*/
+}
