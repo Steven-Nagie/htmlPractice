@@ -1,0 +1,25 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  height: 10vh;
+  width: 10vw;
+  background-color: skyblue;
+}
+
+.bounce {
+  -webkit-animation: bounce .3s infinite alternate;
+  animation: bounce .3s infinite alternate;
+  -webkit-animation-iteration-count: 8;
+}
+
+@-webkit-keyframes bounce {
+  to { transform: scale(1.2); }
+}
+
+@keyframse bounce {
+  to { transform: scale(1.2); }
+}
